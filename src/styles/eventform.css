@@ -31,15 +31,22 @@ body {
     margin-top: -50px;
     padding: 0px 20px;
   }
-  @media (max-width:"1200px"){
-    .leftpage{
+  @media only screen and (max-width: 1170px) {
+    .formpage{
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0px 20px;
+    }
+   .leftpage{
       display: none;
     }
-    .rightpage{
+   .rightpage{
       width: 100%;
       height: 100%;
     }
-  }
+  
+}
   
   /* Form container */
   form {
