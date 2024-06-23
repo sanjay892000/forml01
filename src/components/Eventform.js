@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import Modalform from './Modalform'
 import reglogo from '../reglogo.png'
 import '../styles/eventform.css'
@@ -14,7 +14,7 @@ function Eventform() {
       const [errors, setErrors] = useState({});
       const [submitted, setSubmitted] = useState(false);
       const [showModal, setShowModal] = useState(false);
-    
+    console.log(submitted)
       const handleChange = (e) => {
         const { name, value, type, checked } = e.target;
         setFormData({...formData, [name]: type === 'checkbox' ? checked : value});
