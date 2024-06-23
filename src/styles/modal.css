@@ -19,15 +19,17 @@
 
 .modal-main {
   background: white;
-  padding: 0px 20px;
+  padding: 20px 40px;
+  padding-bottom: 30px;
   border-radius: 8px;
   width: 80%;
-  height: 45%;
   max-width: 500px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: left;
 }
-
+.form-button{
+  display: flex;
+}
 .display-block {
   display: block;
 }
@@ -37,15 +39,16 @@
 }
 
 .close-button {
-  background: #4CAF50;
+  background: rgb(93,155,213);
   color: white;
   border: none;
   padding: 10px 20px;
   cursor: pointer;
   border-radius: 4px;
   margin-top: 20px;
+  margin: 0px 10px;
 }
 
 .close-button:hover {
-  background: #45a049;
+  background:  rgb(66, 146, 222);
 }

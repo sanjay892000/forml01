@@ -10,7 +10,10 @@ function Modalform(props) {
     <div className='cetermodal'>
       <div className="modal-main">
         {children}
-        <button onClick={handleClose} className="close-button">Final Submit</button>
+        <div className='form-button'>
+        <button onClick={handleClose} className="close-button">Edit Form</button>
+        <button onClick={handleClose} className="close-button">Submit Form</button>
+        </div>
       </div>
       </div>
     </div>

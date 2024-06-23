@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import Modalform from './modalform'
+import Modalform from './Modalform'
+import reglogo from '../reglogo.png'
 import '../styles/eventform.css'
 function Eventform() {
     const [formData, setFormData] = useState({
@@ -56,7 +57,7 @@ function Eventform() {
       return (
         <div className='formpage'>
           <div className='leftpage'>
-            
+            <img src={reglogo} height="auto" width="100%" style={{padding:"10px"}} alt="loading..." />
           </div>
           <div className='rightpage'>
           <h1>Event Registration Form</h1>
